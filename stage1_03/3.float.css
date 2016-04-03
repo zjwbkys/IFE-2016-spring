@@ -1,0 +1,42 @@
+body{
+	margin:0;
+	padding:0;
+}
+img{
+	width:80px;
+	height:80px;
+	border:1px solid #c60;
+	margin-bottom: 20px;
+}
+img#cqu,img#wsq{
+	margin-bottom: 0;
+}
+div.wrap,div.left,div.middle,div.right{
+	border:1px solid #999;
+	padding:20px;
+}
+div.left,div.middle,div.right{
+	background-color: #fff;
+}
+div.wrap{
+	background-color: #eee;
+	margin:20px;
+	overflow: hidden;
+}
+div.left{
+	width:158px;
+	float: left;
+}
+div.left p{
+	font-weight: bold;
+	margin:0;
+	float: right;
+}
+div.right{
+	width:78px;
+	float: right;
+}
+div.middle{
+	margin-left: 220px;
+	margin-right: 140px;
+}
