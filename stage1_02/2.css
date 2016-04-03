@@ -1,0 +1,102 @@
+body{
+	font:14px/1.4286 "Microsoft yahei";
+	background-color: #ccc;
+	margin:0;
+	padding:0;
+}
+.head{
+	background-image: url(top.png);
+	line-height: 40px;
+	overflow: hidden;
+}
+ul#list1{
+	float:right;
+}
+.head ul li{
+	float: left;
+	margin-right: 25px;
+}
+.head a{
+	color: #fff;
+	text-decoration: none;
+}
+.main{
+	width: 97%;
+	margin:20px auto;
+}
+.partone,.parttwotop,.parttwobottom,.partthree{
+	background-color: #fff;
+	margin:20px 0;
+	padding: 20px;
+}
+h3,p.publication,.head a#four{
+	color:#ccc;
+}
+p.firstPara,p.fourthPara,p.no1{
+	text-indent:2em;
+}
+ul#list2{
+	list-style: none;
+}
+ul#list3{
+	list-style: none;
+}
+ul#list3 li{
+	border:1px solid #ccc;
+	padding: 0 20px 20px;
+	margin-bottom: 30px;
+	text-align: center;
+	width: 25%;
+}
+ol{
+	font-weight: bold;
+}
+table#first{
+	width:100%;
+	border:1px solid #ccc;
+	border-spacing: 0;
+}
+table#first tr td{
+	border:1px solid #ccc;
+}
+table#first tr.head{
+	background-color: #000;
+	color:#fff;
+}
+table#first tr.foot{
+	background-color: silver;
+	font-weight: bold;
+}
+.partfour{
+	background-color: #fff;
+	margin:40px 0 20px;
+	padding: 20px;
+}
+h2.sidebar{
+	border-left: 4px solid #ccc;
+	padding: 10px;
+}
+table#second{
+	margin-left: 310px;
+	border-spacing: 10px 5px;
+}
+td.dirright{
+	text-align: right;
+}
+input#submit{
+	background-color: #058;
+	width: 100%;
+	height: 40px;
+	color: #fff;
+	border-radius: 10px;
+	font-size: 18px;
+	font-weight: bold;
+}
+.foot{
+	width: 100%;
+	background-color: #000;
+	color:#fff;
+	height: 60px;
+	padding: 1px;
+	text-align: center;
+}
